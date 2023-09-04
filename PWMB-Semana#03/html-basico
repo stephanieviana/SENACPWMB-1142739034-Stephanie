@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Revitalize Gym</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <<link rel="stylesheet" href="configura.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Revitalize Gym</h1>
+        </header>
+        <nav>
+            <a href="cadas.html">Planos<a/>
+                <a href="modali.html">Modalidades<a/>
+                    <a href="uni.html">Unidades<a/>
+                        <a href="falcon.html">Fale  Conosco<a/>
+                            <a href="cadas.html">Cadastra-se<a/>
+                                </nav>
+                                <main>
+
+                                </main>
+                                <footer>
+                                    <p>Desenvolvido por: Stephanie Viana e Bianca Costa</p>
+                                </footer>
+                                </body>
+                                </html>
