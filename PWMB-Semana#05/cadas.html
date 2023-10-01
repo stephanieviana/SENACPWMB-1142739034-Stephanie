@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadas.css">
     <title>Cadastra_se</title>
 </head>
+
 <body>
     <h1>Cadastra-se</h1>
     <form method="post" action="cadastra_se.jsp">
-        <p>
-            <label>Nome:</label>
-            <input type="text" id="nomecli" name="nomecli" required>
-        </p> 
-        <label>Sobrenome:</label>
-        <input type="text" id="sobrenomecli" name="sobrenomecli" required>
-        <p>
-            <label>Email:</label>
-            <input type="text" id="cpfcli" name="cpfcli" required>
-        <p>
-                <label>CPF:</label>
-                <input type="text" id="cpfcli" name="cpfcli" required>
-                <p>
-                    <label>Data de Nascimento:</label>
-                    <input type="text" id="nascimentocli" name="nascimentocli" required>
-                    <p>
-                        <label>Celular:</label>
-                        <input type="text" id="celularcli" name="celularcli" required>
-                </p>
-            <input type="submit" value="Continuar Cadastro">
-        </p>
+        <div class="Cadastro">
+            <p>
+                <label>Nome:</label><br />
+                <input  type="text" id="nomecli" name="nomecli" required>
+            </p><br />
+                <label>Sobrenome:</label><br />
+                <input  type="text" id="sobrenomecli" name="sobrenomecli" required>
+            
+            <p><br />
+                <label>Email:</label><br />
+                <input  type="text" id="cpfcli" name="cpfcli" required>
+            <p><br />
+                <label>CPF:</label><br />
+                <input  type="text" id="cpfcli" name="cpfcli" required>
+            <p><br />
+                <label>Data de Nascimento:</label><br />
+                <input  type="text" id="nascimentocli" name="nascimentocli" required>
+            <p><br />
+                <label>Celular:</label><br />
+                <input  type="text" id="celularcli" name="celularcli" required>
+            </p><br />
+            <input  type="submit" value="Continuar Cadastro">
+            </p>
+        </div>
     </form>
 </body>
+
 </html>
