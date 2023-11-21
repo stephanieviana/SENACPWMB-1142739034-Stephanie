@@ -1,0 +1,104 @@
+section.planos {
+    padding: 80px 4%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.planos .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+section.planos .titulo {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 60px;
+    width: 100%; 
+    text-align: center;
+}
+
+.container .card {
+    width: 300px;
+    height: auto;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #b57edc 0%, #d58cfc 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.container .card:hover {
+    transform: scale(1.050);
+}
+
+.container .card .card-title {
+    padding: 30px 20px;
+    border-bottom: 2px solid rgb(107, 107, 107);
+}
+
+.container .card .card-title h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #c5701b;
+}
+
+.container .card .card-title h3 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #494949;
+}
+
+.container .card .card-title h4 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #ffd700;
+}
+
+.container .card .card-title p span {
+    font-size: 40px;
+    padding: 0 5px;
+    color: #000000;
+}
+
+.container .card .card-content ul {
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.container .card .card-content ul li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #000000;
+}
+
+.container .card .card-content ul li i {
+    margin-right: 4px;
+}
+
+.container .card .card-content button {
+    width: 120px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .card .card-content button:hover {
+    background: #20ee5e;
+    letter-spacing: 1.2px;
+}
+
+.container .card .card-content button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
